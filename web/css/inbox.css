@@ -1,0 +1,125 @@
+html {
+    overflow: hidden;
+}
+
+body{margin-top:20px;}
+
+.chat-content{
+    height: 55vh !important;
+}
+
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+
+#inbox-container{
+    width: 100% !important;
+    margin: 0;
+    max-width: unset !important;
+}
+#inbox-container .card{
+    max-height: 70vh !important;
+    overflow: hidden;
+}
+
+#inbox-container .contact-list{
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+#choose-group{
+    /* height: 10vh; */
+}
+
+#choose-group h3{
+    text-align:center;
+    margin-top: 30%;
+}
+
+.chat-time{
+    font-size: 10px !important;
+}
+
+.chat-author{
+    margin-top: 3px;
+    font-size: 10px;
+    font-weight: 500;
+    opacity: .6;
+}
+
+.chat-btn{
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #inbox-container .contact-list{
+        max-height: 20vh !important;
+    }
+
+    #id-conversation-list{
+        max-height: 100% !important;
+    }
+
+    .conversation-column{
+        max-height: 47vh !important;
+    }
+
+    #id-conversation{
+        max-height: 47vh !important;
+    }
+
+    #inbox-container .card{
+        max-height: 100% !important;
+    }
+}
