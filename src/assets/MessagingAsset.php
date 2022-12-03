@@ -25,7 +25,7 @@ class MessagingAsset extends AssetBundle
     {
         $this->setSourcePath(__DIR__ . '/../web');
         $this->setupAssets('css', ['css/inbox']);
-        $this->setupAssets('js', ['js/inbox']);
+        $this->setupAssets('js', ['js/inbox', 'js/chat']);
         parent::init();
         
     }
