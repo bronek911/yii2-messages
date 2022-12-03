@@ -121,7 +121,7 @@ class MessageReceipent extends \yii\db\ActiveRecord
      */
     public function getAvatar(): string
     {
-        return $this->receipent->userProfile->avatar;
+        return $this->receipent->userProfile->avatar ?? '';
     }
 
     /**
