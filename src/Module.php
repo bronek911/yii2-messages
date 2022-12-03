@@ -39,7 +39,7 @@ class Module extends \yii\base\Module
     {
         parent::init();
         $this->user = \Yii::$app->user->identity;
-        $this->groups = new GroupFacade();
-        $this->messages = new MessageFacade();
+        $this->groups = new GroupFacade($this->userClass);
+        $this->messages = new MessageFacade($this->userClass);
     }
 }

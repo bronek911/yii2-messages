@@ -13,9 +13,9 @@ class GroupFacade
     private $userClass;
     private $repository;
 
-    public function __construct()
+    public function __construct(string $userClass)
     {
-        $this->userClass = Yii::$app->modules['messaging']['userClass'];
+        $this->userClass = $userClass;
         $this->repository = new GroupRepository();
     }
 
