@@ -1,7 +1,7 @@
 {
     "name": "bronek911/yii2-messages",
     "description": "Yii2 messaging module",
-    "type": "library",
+    "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
