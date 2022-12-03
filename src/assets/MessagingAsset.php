@@ -13,9 +13,9 @@ class MessagingAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap4\BootstrapAsset',
         'bronek911\messages\assets\SweetAlertAsset',
-        'bronek911\messages\assets\NiceScroll',
-        'bronek911\messages\assets\MomentJs',
-        'bronek911\messages\assets\Popper',
+        'bronek911\messages\assets\NiceScrollAsset',
+        'bronek911\messages\assets\MomentJsAsset',
+        'bronek911\messages\assets\PopperAsset',
     ];
 
     /**
