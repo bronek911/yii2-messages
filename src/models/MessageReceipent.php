@@ -121,7 +121,7 @@ class MessageReceipent extends \yii\db\ActiveRecord
      */
     public function getAvatar(): string
     {
-        return $this->receipent->userProfile->avatar ?? '';
+        return $this->receipent->userProfile->avatar ?? Yii::getAlias('@backendUrl/../../vendor/bronek911/yii2-messages/src/web/avatar-default.png');
     }
 
     /**

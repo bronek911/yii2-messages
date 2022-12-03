@@ -17,7 +17,7 @@ use yii\helpers\ArrayHelper;
             <?php if(sizeof($participants) == 1): ?>
                 <!-- Image shown only if a conversation has no more than two participants -->
                 <div class="position-relative">
-                    <img id="my-chat-photo" src="<?=$participants[0]->receipent->userProfile->avatar?>" class="rounded-circle mr-1" alt="<?=$participants[0]->receipent->userProfile->fullname?>" width="40" height="40">
+                    <img id="my-chat-photo" src="<?=$participants[0]->avatar?>" class="rounded-circle mr-1" alt="<?=$participants[0]->receipent->userProfile->fullname?>" width="40" height="40">
                 </div>
             <?php endif; ?>
 
