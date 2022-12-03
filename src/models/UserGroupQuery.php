@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\messaging\models;
+namespace bronek911\messages\models;
 
 /**
  * This is the ActiveQuery class for [[UserGroup]].

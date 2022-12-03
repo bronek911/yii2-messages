@@ -1,8 +1,8 @@
 <?php
 
-namespace app\modules\messaging\models;
+namespace bronek911\messages\models;
 
-use app\modules\messaging\models\Group;
+use bronek911\messages\models\Group;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 

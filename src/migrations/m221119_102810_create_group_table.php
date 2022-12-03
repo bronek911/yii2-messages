@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\messaging\migrations;
+namespace bronek911\messages\migrations;
 
 use yii\db\Migration;
 

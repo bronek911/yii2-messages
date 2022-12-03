@@ -1,10 +1,10 @@
 <?php
 
-namespace app\modules\messaging\controllers;
+namespace bronek911\messages\controllers;
 
 use Yii;
 use yii\web\Controller;
-use app\modules\messaging\models\Group;
+use bronek911\messages\models\Group;
 
 /**
  * Default controller for the `messaging` module

@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 
 ?>
 
-<?php \app\modules\messaging\assets\MessagingAsset::register($this); ?>
+<?php \bronek911\messages\assets\MessagingAsset::register($this); ?>
 
 <main class="content">
 

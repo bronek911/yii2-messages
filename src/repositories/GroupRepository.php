@@ -1,15 +1,15 @@
 <?php
 
-namespace app\modules\messaging\repositories;
+namespace bronek911\messages\repositories;
 
-use app\modules\messaging\models\Group;
-use app\modules\messaging\models\Message;
-use app\modules\messaging\models\UserGroup;
-use app\modules\messaging\models\GroupQuery;
-use app\modules\messaging\models\MessageQuery;
-use app\modules\messaging\models\UserGroupQuery;
-use app\modules\messaging\models\MessageReceipent;
-use app\modules\messaging\models\MessageReceipentQuery;
+use bronek911\messages\models\Group;
+use bronek911\messages\models\Message;
+use bronek911\messages\models\UserGroup;
+use bronek911\messages\models\GroupQuery;
+use bronek911\messages\models\MessageQuery;
+use bronek911\messages\models\UserGroupQuery;
+use bronek911\messages\models\MessageReceipent;
+use bronek911\messages\models\MessageReceipentQuery;
 
 class GroupRepository
 {

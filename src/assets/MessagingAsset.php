@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\messaging\assets;
+namespace bronek911\messages\assets;
 
 use yii\web\AssetBundle;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\messaging\models;
+namespace bronek911\messages\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;

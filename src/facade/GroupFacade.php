@@ -1,12 +1,12 @@
 <?php
 
-namespace app\modules\messaging\facade;
+namespace bronek911\messages\facade;
 
 use Yii;
 use yii\helpers\Inflector;
-use app\modules\messaging\models\Group;
-use app\modules\messaging\models\UserGroup;
-use app\modules\messaging\repositories\GroupRepository;
+use bronek911\messages\models\Group;
+use bronek911\messages\models\UserGroup;
+use bronek911\messages\repositories\GroupRepository;
 
 class GroupFacade
 {

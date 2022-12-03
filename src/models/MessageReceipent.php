@@ -1,9 +1,9 @@
 <?php
 
-namespace app\modules\messaging\models;
+namespace bronek911\messages\models;
 
 use Yii;
-use app\modules\messaging\models\Group;
+use bronek911\messages\models\Group;
 
 /**
  * This is the model class for table "message_receipent".

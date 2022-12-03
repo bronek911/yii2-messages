@@ -1,13 +1,13 @@
 <?php
 
-namespace app\modules\messaging\facade;
+namespace bronek911\messages\facade;
 
 use Yii;
 use yii\helpers\Inflector;
-use app\modules\messaging\models\Group;
-use app\modules\messaging\models\Message;
-use app\modules\messaging\models\MessageReceipent;
-use app\modules\messaging\repositories\MessageRepository;
+use bronek911\messages\models\Group;
+use bronek911\messages\models\Message;
+use bronek911\messages\models\MessageReceipent;
+use bronek911\messages\repositories\MessageRepository;
 
 class MessageFacade
 {

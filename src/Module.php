@@ -1,13 +1,13 @@
 <?php
 
-namespace app\modules\messaging;
+namespace bronek911\messages;
 
 use Yii;
 use app\models\User;
-use app\modules\messaging\models\Group;
-use app\modules\messaging\models\Message;
-use app\modules\messaging\facade\GroupFacade;
-use app\modules\messaging\facade\MessageFacade;
+use bronek911\messages\models\Group;
+use bronek911\messages\models\Message;
+use bronek911\messages\facade\GroupFacade;
+use bronek911\messages\facade\MessageFacade;
 
 /**
  * messaging module definition class
@@ -25,7 +25,7 @@ class Module extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'app\modules\messaging\controllers';
+    public $controllerNamespace = 'bronek911\messages\controllers';
 
     /**
      * {@inheritdoc}
