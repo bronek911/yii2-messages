@@ -1,0 +1,21 @@
+{
+    "name": "bronek911/yii2-messages",
+    "description": "Yii2 messaging module",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "bronek911\\messages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Bronowski",
+            "email": "bronus911@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    }
+}
